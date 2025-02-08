@@ -9,12 +9,12 @@ int main() {
     l = a[0];
     for(i=0,i<n,i++){
         if (l<a[i]){
-            l=a[i]
+            l=a[i];
         }
     }
     for(i=0,i<n,i++){
         if (s>a[i]){
-            s=a[i]
+            s=a[i];
         }
     }
     
