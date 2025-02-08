@@ -18,5 +18,5 @@ int main() {
             s=a[i];
         }
     }
-    printf("%d %d",l,s);
+    printf("%d %d",s,l);
 }
