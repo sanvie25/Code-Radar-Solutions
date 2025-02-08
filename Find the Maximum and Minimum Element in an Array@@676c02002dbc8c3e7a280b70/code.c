@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int i,n,m,a[10],l,s;
+    int i,n,a[10],l,s;
     scanf("%d",&n);
     for(i=0,i<n,i++){
         scanf("%d",&a[i]);
@@ -12,6 +12,7 @@ int main() {
             l=a[i];
         }
     }
+    s = a[0]
     for(i=0,i<n,i++){
         if (s>a[i]){
             s=a[i];
