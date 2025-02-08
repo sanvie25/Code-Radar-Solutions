@@ -18,6 +18,5 @@ int main() {
             s=a[i];
         }
     }
-    
-
+    printf("%d %d",l,s);
 }
