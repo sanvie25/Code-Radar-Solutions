@@ -12,7 +12,7 @@ int main() {
             l=a[i];
         }
     }
-    s = a[0]
+    s = a[0];
     for(i=0,i<n,i++){
         if (s>a[i]){
             s=a[i];
