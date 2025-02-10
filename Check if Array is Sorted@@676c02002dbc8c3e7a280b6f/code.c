@@ -12,11 +12,11 @@ int main() {
 
     for(i = 1; i < n; i++) {
         if(a[i] < a[i - 1]) {
-            printf("Not sorted\n");
+            printf("Not sorted");
             return 0;  
         }
     }
 
-    printf("Sorted\n"); 
-    return 0;
+printf("Sorted"); 
+return 0;
 }
