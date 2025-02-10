@@ -10,8 +10,8 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    for(i = n-1; i > 0; i--) {
-        if(a[n] < a[n- 1]) {
+    for(i = n-2; i > 0; i--) {
+        if(a[n-1] < a[n-2]) {
             printf("Not Sorted");
             return 0;  
         }
