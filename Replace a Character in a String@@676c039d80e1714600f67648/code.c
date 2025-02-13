@@ -5,8 +5,8 @@ int main(){
     char a;
     char b;
     scanf("%s",star);
-    scanf("%c",&a);
-    scanf("%c",&b);
+    scanf(" %c",&a);
+    scanf(" %c",&b);
     int l = strlen(star);
     int i;
     for(i=0;i<=l;i++){
