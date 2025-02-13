@@ -9,7 +9,7 @@ int main(){
     scanf(" %c",&b);
     int l = strlen(star);
     int i;
-    for(i=0;i<=l;i++){
+    for(i=0;i<l;i++){
         if(star[i]==a){
             printf("%c",b);
         }
