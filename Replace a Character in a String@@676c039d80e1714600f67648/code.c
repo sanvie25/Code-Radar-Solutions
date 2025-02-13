@@ -10,7 +10,7 @@ int main(){
     int l = strlen(star);
     int i;
     for(i=0;i<=l;i++){
-        if(str[i]==a){
+        if(star[i]==a){
             printf("%c",b);
         }
         else{
