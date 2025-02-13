@@ -3,7 +3,7 @@
 int main() {
     int a, b;
     char c;
-    
+
     scanf("%d %d %c", &a, &b, &c);  
 
     switch (c) {
@@ -18,9 +18,9 @@ int main() {
             break;
         case '/':
             if (b != 0)
-                printf("%.2f\n", (float)a / b);  
+                printf("%d\n", a / b);  
             else
-                printf("Error: Division by zero\n");
+                printf("error");
             break;
         default:
             printf("Error: Invalid operator\n");  
