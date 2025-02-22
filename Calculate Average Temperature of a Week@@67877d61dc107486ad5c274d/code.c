@@ -34,7 +34,8 @@ int main(){
         }
     for (i = 0; i<7; i++) {
         sum = sum + w.b[i];
-        printf("Average Temperature: %d\n" w.b[i]);
         }
+    float avg = sum/7.0;
+    printf("Average Temperature: %.2f\n",avg);
 }
 }
