@@ -26,7 +26,6 @@ int main(){
     int i;
     int sum=0;
     for (i = 0; i<7; i++) {
-        printf("enter");
         scanf("%s %d", &w.a[i],&w.b[i]);
         }
     for (i = 0; i<7; i++) {
