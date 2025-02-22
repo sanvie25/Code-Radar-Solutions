@@ -16,9 +16,9 @@ int main(){
     for (i = 0; i<7; i++) {
         scanf("%s %d", &w.a[i],&w.b[i]);
         }
-    for (i = 0; i<7; i++) {
-        printf("%s, %d\n", w.a[i], w.b[i]);
-        }
+    // for (i = 0; i<7; i++) {
+    //     printf("%s, %d\n", w.a[i], w.b[i]);
+    //     }
     for (i = 0; i<7; i++) {
         sum = sum + w.b[i];
         }
