@@ -8,10 +8,7 @@ struct week{
 
 int main(){
     struct week w;
-    int i;
     int sum=0;
-
-    struct week w;
     int i;
     for (i = 0; i<7; i++) {
         scanf("%s %d", &w.a[i],&w.b[i]);
