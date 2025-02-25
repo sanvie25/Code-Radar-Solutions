@@ -3,7 +3,7 @@
 
 struct bonus{
     char a[25][25];
-    int b[7];
+    int b[25];
     float c[25];
 };
 
