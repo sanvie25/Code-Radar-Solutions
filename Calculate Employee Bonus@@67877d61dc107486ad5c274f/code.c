@@ -17,6 +17,6 @@ int main(){
         }
 
     for (i = 0; i<m; i++) {
-        printf("Employee ID:%d, Name: %s, Bonus: %.2f\n",w.b[i],w.a[i],w.c[i]);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",w.b[i],w.a[i],w.c[i]);
         }
 }
