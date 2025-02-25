@@ -4,7 +4,7 @@
 struct bonus{
     char a[25][25];
     int b[7];
-    int c[25];
+    float c[25];
 };
 
 int main(){
@@ -13,10 +13,10 @@ int main(){
     struct bonus w;
     int i;
     for (i = 0; i<m; i++) {
-        scanf("%d %s %d",&w.b[i],&w.a[i],&w.c[i]);
+        scanf("%d %s %f",&w.b[i],&w.a[i],&w.c[i]);
         }
 
     for (i = 0; i<m; i++) {
-        printf("Employee ID:%d, Name:%s, Bonus: %d\n",&w.b[i],&w.a[i],&w.c[i]);
+        printf("Employee ID:%d, Name:%s, Bonus: %f\n",&w.b[i],&w.a[i],&w.c[i]);
         }
 }
