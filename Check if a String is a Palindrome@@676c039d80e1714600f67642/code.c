@@ -35,9 +35,9 @@ int main() {
 
     // Output the result
     if (flag) {
-        printf("%s is not a palindrome\n", string1);
+        printf("Yes");
     } else {
-        printf("%s is a palindrome\n", string1);
+        printf("No");
     }
 
     return 0;
