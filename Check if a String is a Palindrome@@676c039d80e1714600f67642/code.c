@@ -5,7 +5,7 @@ int main(){
     char rev[25];
     int i;
     int len = strlen(a);
-    for(i=len;i>=0;i--){
+    for(i=len-1;i>=0;i--){
         printf("%s",rev[i]);
     }
 }
