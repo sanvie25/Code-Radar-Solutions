@@ -1,30 +1,19 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
-    char s[200];
-    int count = 0, i = 0;
+    char str[100]; 
+    int i, word_count = 0, in_word = 0;
 
-    // Input a line of text
-    scanf(" %[^\n]", s);
+    fgets(str, sizeof(str), stdin);
 
-    // Trim leading spaces
-    while (s[i] == ' ' || s[i] == '\t') {
-        i++;
-    }
-
-    // Count words
-    for (; s[i] != '\0'; i++) {
-        if ((s[i] == ' ' || s[i] == '\t') && s[i + 1] != ' ' && s[i + 1] != '\t' && s[i + 1] != '\0') {
-            count++;
+    for (i = 0; str[i] != '\0'; i++) {
+        if (str[i] == ' '|| str[i] == '\t') {
+            in_word = 0; 
+        } else if (in_word == 0) {
+            in_word = 1;
+            word_count++;
         }
     }
-
-    // If the string is not empty, there is at least one word
-    if (s[i - 1] != ' ' && s[i - 1] != '\t') {
-        count++;
-    }
-
-    printf("%d\n", count);
+    printf("%d", word_count);
     return 0;
 }
