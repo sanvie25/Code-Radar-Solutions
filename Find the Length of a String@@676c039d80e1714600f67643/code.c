@@ -3,8 +3,15 @@
 
 int main() {
     char str[20];
-    int length;
     fgets(str, sizeof(str), stdin);
-    length = strlen(str);
-    printf("%d",length);
+
+    // Debugging: Show what's actually in `str`
+    printf("Input: \"%s\"\n", str);
+
+    // Remove trailing newline
+    str[strcspn(str, "\n")] = '\0';
+
+    printf("Length: %zu\n", strlen(str));
+
+    return 0;
 }
