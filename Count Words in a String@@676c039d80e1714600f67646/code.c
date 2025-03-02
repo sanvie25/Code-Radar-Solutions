@@ -4,9 +4,9 @@ int main() {
     char str[100]; // Array to store the string
     int i, word_count = 0, in_word = 0;
 
-    // Input the string
+    // Input the string safely using fgets()
     printf("Enter a string: ");
-    gets(str);  // Using gets() (not recommended, but keeping it simple)
+    fgets(str, sizeof(str), stdin);
 
     // Loop through each character in the array
     for (i = 0; str[i] != '\0'; i++) {
