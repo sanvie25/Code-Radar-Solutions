@@ -6,6 +6,6 @@ int main(){
     int i;
     int len = strlen(a);
     for(i=len;i>=0;i--){
-        cout<<rev[i];
+        printf("%s",rev[i]);
     }
 }
