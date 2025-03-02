@@ -1,19 +1,17 @@
 #include <stdio.h>
-
-int main() {
-    char str[100]; 
-    int i, word_count = 0, in_word = 0;
-
-    fgets(str, sizeof(str), stdin);
-
-    for (i = 0; str[i] != '\0'; i++) {
-        if (str[i] == ' '|| str[i] == '\t') {
-            in_word = 0; 
-        } else if (in_word == 0) {
-            in_word = 1;
-            word_count++;
-        }
+#include <string.h>
+ 
+void main()
+{
+    char s[200];
+    int count = 0, i;
+ 
+    printf("Enter the string:\n");
+    scanf("%[^\n]s", s);
+    for (i = 0;s[i] != '\0';i++)
+    {
+        if (s[i] == ' ' && s[i+1] != ' ')
+            count++;    
     }
-    printf("%d", word_count);
-    return 0;
+    printf("Number of words in given string are: %d\n", count + 1);
 }
