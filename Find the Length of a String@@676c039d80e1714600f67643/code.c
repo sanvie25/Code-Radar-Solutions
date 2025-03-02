@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char str[5][20];
+    char str[20];
     int length;
     fgets(str, sizeof(str), stdin);
     length = strlen(str);
