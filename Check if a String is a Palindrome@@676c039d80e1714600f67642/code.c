@@ -35,9 +35,9 @@ int main() {
 
     // Output the result
     if (flag) {
-        printf("Yes");
-    } else {
         printf("No");
+    } else {
+        printf("Yes");
     }
 
     return 0;
