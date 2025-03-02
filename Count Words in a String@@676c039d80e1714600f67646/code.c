@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char str[100]; 
+    char str[25][100]; 
     int i, word_count = 0, in_word = 0;
 
-    fgets(str, sizeof(str), stdin);
+    scanf("%s",&str);
 
     for (i = 0; str[i] != '\0'; i++) {
         if (str[i] == ' '|| str[i] == '\t') {
