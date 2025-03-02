@@ -11,7 +11,7 @@ int main(){
     int n;
     scanf("%d",&n);
 
-    struct subscription s;
+    struct subscription q;
     int i;
     int b=0;
     float br=0.00,pr=0.00,sr=0.00;
@@ -19,7 +19,7 @@ int main(){
     int s=0;
 
     for (i = 0; i < n; i++) {
-        scanf("%s %s %.1f", &w.a[i], w.b[i], &w.c[i]);
+        scanf("%s %s %.1f", &q.a[i], q.b[i], &q.c[i]);
         if(w.b[i]=="Basic"){
             b+=1
             br+=199.00
