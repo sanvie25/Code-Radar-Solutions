@@ -2,9 +2,9 @@
 #include <string.h>
 
 int main() {
-    char string1[5][20];
+    char str[5][20];
     int length;
-    scanf("%s", string1);
-    length = strlen(string1);
+    fgets(str, sizeof(str), stdin);
+    length = strlen(str);
     printf("%d",length);
 }
