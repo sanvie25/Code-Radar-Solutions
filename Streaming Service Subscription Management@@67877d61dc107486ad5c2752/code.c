@@ -21,19 +21,19 @@ int main() {
 
         if (strcmp(q.b[i], "Basic") == 0) {
             b += 1;
-            br += 199.00;
+            br += q.c[i];
         } 
         else if (strcmp(q.b[i], "Standard") == 0) {
             s += 1;
-            sr += 499.00;
+            sr += q.c[i];
         } 
         else {
             p += 1;
-            pr += 999.00;
+            pr += q.c[i];
         }
     }
 
-    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f", 
+        printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f", 
        b, br, s, sr, p, pr);
 
 
