@@ -18,7 +18,7 @@ int main() {
     int flag = 0;
 
     // Prompt the user for input
-    printf("Enter a string: ");
+    
     scanf("%s", string1);
 
     // Calculate the string length
