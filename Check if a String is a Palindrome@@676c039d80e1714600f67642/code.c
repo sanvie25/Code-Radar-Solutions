@@ -6,6 +6,6 @@ int main(){
     int i;
     int len = strlen(a);
     for(i=len-1;i>=0;i--){
-        printf("%s",rev[i]);
+        printf("%c",rev[i]);
     }
 }
