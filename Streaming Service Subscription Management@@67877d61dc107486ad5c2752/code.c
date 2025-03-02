@@ -33,7 +33,7 @@ int main() {
         }
     }
 
-printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f", 
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f", 
        b, br, s, sr, p, pr);
 
 
