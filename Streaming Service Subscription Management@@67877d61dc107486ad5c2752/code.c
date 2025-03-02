@@ -20,17 +20,17 @@ int main(){
 
     for (i = 0; i < n; i++) {
         scanf("%s %s %.1f", &q.a[i], q.b[i], &q.c[i]);
-        if(w.b[i]=="Basic"){
-            b+=1
-            br+=199.00
+        if(q.b[i]=="Basic"){
+            b+=1;
+            br+=199.00;
         }
-        else if(w.b[i]=="Standard"){
-            s+=1
-            sr+=499.00
+        else if(q.b[i]=="Standard"){
+            s+=1;
+            sr+=499.00;
         }
         else{
-            p+=1
-            pr+=999.00
+            p+=1;
+            pr+=999.00;
         }
     }
 
